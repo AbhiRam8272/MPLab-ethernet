@@ -1,0 +1,15 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: tcpipAnnounce}
+children:
+- type: Symbols
+  children:
+  - type: Combo
+    attributes: {id: TCPIP_ANNOUNCE_NETWORK_DIRECTED_BCAST}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Network Limited}
+- type: ElementPosition
+  attributes: {x: '623', y: '22', id: tcpipAnnounce}
